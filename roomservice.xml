@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="CyanogenMod/android_external_openssl" path="external/openssl" />
+  <remove-project name="CyanogenMod/android_external_skia" path="external/skia" />
+  <remove-project name="CyanogenMod/android_frameworks_base" path="frameworks/base" />
+  <remove-project name="CyanogenMod/android_frameworks_native" path="frameworks/native" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+  <remove-project name="CyanogenMod/android_packages_apps_Nfc" path="packages/apps/Nfc" />
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" path="packages/services/Telephony" />
+  <remove-project name="CyanogenMod/android_system_core" path="system/core" />
+  <project name="fire855/android_external_openssl" path="external/openssl" />
+  <project path="external/skia" name="fire855/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="frameworks/base" name="fire855/android_frameworks_base-mt6592" />
+  <project path="frameworks/native" name="fire855/android_frameworks_native-mt6592" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="fire855/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="packages/apps/Nfc" name="fire855/android_packages_apps_Nfc" />
+  <project path="packages/services/Telephony" name="fire855/android_packages_services_Telephony" />
+  <project path="system/core" name="fire855/android_system_core-mt6592" groups="pdk" />
+  <project path="device/kingzone/k1_turbo" name="fire855/android_device_kingzone_k1-turbo" revision="cm-12.1" />
+  <project path="vendor/kingzone/k1_turbo" name="fire855/android_vendor_kingzone_k1-turbo" revision="cm-12.1" />
+</manifest>
